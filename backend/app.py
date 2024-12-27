@@ -7,7 +7,7 @@ from torchvision.models import resnet18, ResNet
 # Define device
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-ai = MetaAI(fb_email="muhammadehtishamraza15@gmail.com", fb_password="Ehtisham24/7")
+ai = MetaAI(fb_email="your email", fb_password="your password")
 
 # Load and preprocess the custom image
 def preprocess_image(image_path):
