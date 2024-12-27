@@ -1,0 +1,22 @@
+.logo{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 135px;
+    animation:rotate 5s linear infinite ;
+  }
+  .logodisplay{
+    position: relative;
+      left: 375px;
+      margin-top: 12px;
+  } 
+  @keyframes rotate {
+    0%{
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+    
+  }

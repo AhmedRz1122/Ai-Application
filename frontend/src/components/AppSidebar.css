@@ -1,0 +1,54 @@
+body {
+    background: linear-gradient(to right, #000428, #004e92);
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .app-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* #promptarea {
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
+  
+  /* textarea {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    resize: vertical;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #e0e0e0;
+    font-family: "Exo 2", sans-serif;
+    outline: none;
+  }
+   */
+  textarea::placeholder {
+    color: #ccc;
+  }
+
+  .sidebar-container {
+    position: relative;
+  }
+  textarea.textarea-style {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    resize: none;
+  }
+  textarea.textarea-style:focus {
+    outline: none;
+    border-color: #0078d7;
+    box-shadow: 0 0 5px rgba(0, 120, 215, 0.5);
+  }
+  

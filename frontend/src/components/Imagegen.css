@@ -1,0 +1,42 @@
+body{
+    background: linear-gradient(to right, #000428, #004e92);
+
+}
+
+
+
+textarea {
+    
+    width: 69%;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 15px;
+    resize: vertical;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #e0e0e0;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.logo{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 135px;
+  animation:rotate 5s linear infinite ;
+ /* animation-duration: 20s; */
+}
+.logodisplay{
+  position: relative;
+    left: 375px;
+    margin-top: 12px;
+} 
+@keyframes rotate {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+  
+}

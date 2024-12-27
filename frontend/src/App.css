@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.main-content {
+  margin-left: 16rem; /* Matches the width of the sidebar */
+  transition: margin-left 0.3s; /* Smooth transition for collapse */
+}
+
+
+/* ********AppSidebar.jsx ki CSS hia**** */
+/* .logo{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 135px;
+  animation:rotate 5s linear infinite ;
+}
+.logodisplay{
+  position: relative;
+    left: 375px;
+    margin-top: 12px;
+} 
+@keyframes rotate {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+  
+} */
+   /* ******** end of AppSidebar.jsx******** */
+
+
+/* *****************Imagegrn.jsx and its component related CSS for logo animation******************* */
+   /* .logo{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100px;
+    animation:rotate 5s linear infinite ;
+  }
+  @keyframes rotate{
+    0%{
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+  }
+   .logodisplay{
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+      
+      margin-top: 12px;} */
